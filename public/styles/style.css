@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(98, 98, 255);
+}
+
+#idFormArtist {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#idFormArtist input {
+    font-size: 2rem;
+    margin: auto;
+    margin: 20px;
+    width: 75%;
+}
+
+#idFormArtist button {
+    font-size: 2rem;
+    border-radius: 20px;
+    padding: .5rem;
+    margin: auto;
+    margin: 30px;
+    width: 25%;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerBgArtist {
+    width: 22vw;
+    height: 22vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 15px;
+}
+
+.containerBgArtist a {
+    color: rgb(243, 255, 72);
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0), 4px 4px 8px rgb(0, 0, 0);
+}
+
+a:hover {
+    font-size: 1.4rem;
+}
